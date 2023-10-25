@@ -1,8 +1,13 @@
 import React from "react";
+import Header from "./Header";
+import Title from "./Title";
 
 function App(){
     return(
-        <h1>LuminaGlo!</h1>
+        <div>
+            <Header />
+            <Title />
+        </div>
     );
 }
 
