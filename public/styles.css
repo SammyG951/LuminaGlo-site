@@ -71,6 +71,13 @@ footer {
     top: 18%;
 }
 
+#features {
+    background-color: var(--clr-tertiary);
+    position: relative;
+    z-index: 1;
+    padding: 7% 10%;
+}
+
 .align-end {
     text-align: end;
 }
@@ -79,4 +86,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.feature-partial {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-icon {
+    margin-bottom: 50px;
+    transform: scale(1.5);
 }

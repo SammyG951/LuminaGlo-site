@@ -10,16 +10,16 @@ function Footer() {
             <Box>
                 <Grid container spacing={3}>
                     <Grid item xs={3}>
-                        <i class="social-icon fa-brands fa-twitter"></i>
+                        <i className="social-icon fa-brands fa-twitter"></i>
                     </Grid>
                     <Grid item xs={3}>
-                        <i class="social-icon fa-brands fa-facebook-f"></i>
+                        <i className="social-icon fa-brands fa-facebook-f"></i>
                     </Grid>
                     <Grid item xs={3}>
-                        <i class="social-icon fa-brands fa-instagram"></i>
+                        <i className="social-icon fa-brands fa-instagram"></i>
                     </Grid>
                     <Grid item xs={3}>
-                        <i class="social-icon fa-solid fa-envelope"></i>
+                        <i className="social-icon fa-solid fa-envelope"></i>
                     </Grid>
                     <Grid item xs={12}>
                         <p>Copyright ⓒ {year}</p>
