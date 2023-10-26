@@ -26,6 +26,20 @@ p {
     font-family: var(--secondary-font-family);
 }
 
+footer {
+    color: var(--clr-seconday);
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+footer p {
+    /* margin-top: 50px; */
+}
+
 #title {
     background-color:hsla(212,75%,9%,1);
     background-image:
@@ -61,12 +75,12 @@ p {
     top: 18%;
 }
 
+.align-end {
+    text-align: end;
+}
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.align-end {
-    text-align: end;
 }
