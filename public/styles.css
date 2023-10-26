@@ -1,0 +1,72 @@
+
+:root {
+    --clr-primary: #06172B;
+    --clr-seconday: #0A2647;
+    --clr-tertiary: #F4FFFF;
+
+    --primary-font-family: 'Manrope', sans-serif;
+    --secondary-font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 2rem;
+    color: var(--clr-tertiary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-font-family);
+}
+
+p {
+    font-family: var(--secondary-font-family);
+}
+
+#title {
+    background-color:hsla(212,75%,9%,1);
+    background-image:
+        radial-gradient(at 0% 100%, hsla(316,93%,58%,1) 0px, transparent 50%),
+        radial-gradient(at 40% 75%, hsla(137,84%,32%,1) 0px, transparent 50%),
+        radial-gradient(at 9% 40%, hsla(41,95%,58%,1) 0px, transparent 50%);
+    color: var(--clr-tertiary);
+}
+
+#title h1 {
+    font-size: 3em;
+}
+
+#title-button {
+    font-family: var(--secondary-font-family);
+    margin-top: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+#title-button:hover {
+    transform: scale(1.05);
+}
+
+#title-content {
+    padding-inline: 200px 300px;
+    margin: 150px 0 150px 0;
+}
+
+#product-img {
+    width: 40%;
+    position: absolute;
+    transform: rotate(30deg);
+    top: 18%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-end {
+    text-align: end;
+}
