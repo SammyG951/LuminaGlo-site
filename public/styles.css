@@ -78,6 +78,28 @@ footer {
     padding: 7% 10%;
 }
 
+#testimonials {
+    background-color: var(--clr-seconday);
+    padding: 7% 10%;
+}
+
+#testimonial-carousel-item {
+    color: var(--clr-tertiary);
+    margin: 7% 15%;
+    text-align: center;
+}
+
+#testimonial-carousel-item img {
+    height: 100px;
+    margin: 30px 45px 20px 20px;
+    background-color: var(--clr-tertiary);
+    border-radius: 50%;
+}
+
+#testimonial-carousel-item em {
+    font-size: 1.25rem;
+}
+
 .align-end {
     text-align: end;
 }
