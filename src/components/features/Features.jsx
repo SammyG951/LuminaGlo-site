@@ -32,8 +32,6 @@ function Features() {
         }
     ]
 
-    console.log(features);
-
     return(
         <div id="features">
             <Box>
