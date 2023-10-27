@@ -22,7 +22,7 @@ function Footer() {
                         <i className="social-icon fa-solid fa-envelope"></i>
                     </Grid>
                     <Grid item xs={12}>
-                        <p>Copyright ⓒ {year}</p>
+                        <p>Copyright © {year}</p>
                     </Grid>
                 </Grid>
             </Box>
