@@ -100,6 +100,21 @@ footer {
     font-size: 1.25rem;
 }
 
+#packages {
+    background-color: var(--clr-tertiary);
+    padding: 7% 15%;
+}
+
+#package-button {
+    color: var(--clr-primary);
+    font-family: var(--secondary-font-family);
+    transition: all 0.2s ease-in-out;
+}
+
+#package-button:hover {
+    transform: scale(1.05);
+}
+
 .align-end {
     text-align: end;
 }
@@ -118,4 +133,8 @@ footer {
 .feature-icon {
     margin-bottom: 50px;
     transform: scale(1.5);
+}
+
+.test {
+    text-align: center;
 }

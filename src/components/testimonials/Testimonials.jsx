@@ -40,7 +40,7 @@ function Testimonials(){
                 {testimonials.length > 0 && (
                         testimonials.map((testimonialItem, index) => {
                             return(
-                                <Carousel.Item key={index}>
+                                <Carousel.Item key={index} interval={10000}>
                                     <SingleTestimonial
                                         name={testimonialItem.name}
                                         state={testimonialItem.state}
