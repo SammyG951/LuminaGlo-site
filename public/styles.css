@@ -14,8 +14,29 @@
 }
 
 header {
-    padding: 2rem;
+    padding: 4rem 19rem 0 13rem;
     color: var(--clr-tertiary);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--clr-tertiary);
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.05);
+}
+
+header h1 {
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {

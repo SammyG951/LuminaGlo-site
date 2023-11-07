@@ -6,7 +6,7 @@ function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <footer>
+        <footer id="footer">
             <Box>
                 <Grid container spacing={3}>
                     <Grid item xs={3}>
