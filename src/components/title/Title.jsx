@@ -17,7 +17,7 @@ function Title(){
                     <Grid item xs={8} className="center">
                         <div id="title-content" className="align-end">
                             <h1>Lighting Innovation at Your Fingertips.</h1>
-                            <CustomButton id="title-button" name="View Options" />    
+                            <CustomButton id="title-button" name="View Options" href="#packages" />    
                         </div>
                     </Grid>
                 </Grid>

@@ -15,7 +15,7 @@ const theme = createTheme({
 function CustomButton(props){
     return(
         <ThemeProvider theme={theme}>
-            <Button id={props.id} color="custom">{props.name} <KeyboardArrowRightIcon/></Button>
+            <Button id={props.id} color="custom" href={props.href}>{props.name} <KeyboardArrowRightIcon/></Button>
         </ThemeProvider>
     );
 }
