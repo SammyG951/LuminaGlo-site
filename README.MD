@@ -15,9 +15,6 @@
   <p align="center">
     Welcome to the LuminaGlo project – a mock website for a fictional smart bulb brand.
     <br />
-    <a href="https://github.com/SammyG951/LuminaGlo-site"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
     <a href="https://github.com/SammyG951/LuminaGlo-site/issues">Report Bug</a>
