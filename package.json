@@ -1,11 +1,16 @@
 {
   "name": "luminaglo-site",
   "version": "1.0.0",
+  "homepage": "https://sammyg951.github.io/LuminaGlo-site",
   "description": "Mock website of a fake product called LuminaGlo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Samuel Gonzalez III",
   "license": "ISC",
@@ -32,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
