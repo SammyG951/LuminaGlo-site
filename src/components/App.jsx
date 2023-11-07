@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Features from "./features/Features";
 import Testimonials from "./testimonials/Testimonials";
 import Packages from "./packages/Packages";
+import CTA from "./CTA";
 
 function App(){
     return(
@@ -12,6 +13,7 @@ function App(){
             <Features />
             <Testimonials />
             <Packages />
+            <CTA />
             <Footer />
         </div>
     );

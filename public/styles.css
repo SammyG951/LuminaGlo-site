@@ -1,7 +1,7 @@
 
 :root {
     --clr-primary: #06172B;
-    --clr-seconday: #0A2647;
+    --clr-secondary: #0A2647;
     --clr-tertiary: #F4FFFF;
 
     --primary-font-family: 'Manrope', sans-serif;
@@ -27,7 +27,7 @@ p {
 }
 
 footer {
-    color: var(--clr-seconday);
+    color: var(--clr-secondary);
     text-align: center;
     height: 200px;
     display: flex;
@@ -73,13 +73,14 @@ footer {
 
 #features {
     background-color: var(--clr-tertiary);
+    color: var(--clr-secondary);
     position: relative;
     z-index: 1;
     padding: 7% 10%;
 }
 
 #testimonials {
-    background-color: var(--clr-seconday);
+    background-color: var(--clr-secondary);
     padding: 7% 10%;
 }
 
@@ -102,11 +103,11 @@ footer {
 
 #packages {
     background-color: var(--clr-tertiary);
+    color: var(--clr-secondary);
     padding: 7% 15%;
 }
 
 #package-button {
-    color: var();
     font-family: var(--secondary-font-family);
     transition: all 0.2s ease-in-out;
 }
