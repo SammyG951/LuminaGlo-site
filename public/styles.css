@@ -27,6 +27,7 @@ p {
 }
 
 footer {
+    background-color: var(--clr-tertiary);
     color: var(--clr-secondary);
     text-align: center;
     height: 200px;
