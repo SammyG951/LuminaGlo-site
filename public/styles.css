@@ -106,7 +106,7 @@ footer {
 }
 
 #package-button {
-    color: var(--clr-primary);
+    color: var();
     font-family: var(--secondary-font-family);
     transition: all 0.2s ease-in-out;
 }
@@ -133,8 +133,4 @@ footer {
 .feature-icon {
     margin-bottom: 50px;
     transform: scale(1.5);
-}
-
-.test {
-    text-align: center;
 }
