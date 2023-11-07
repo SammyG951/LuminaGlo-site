@@ -15,7 +15,7 @@
   <p align="center">
     Welcome to the LuminaGlo project – a mock website for a fictional smart bulb brand.
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://sammyg951.github.io/LuminaGlo-site/">View Demo</a>
     ·
     <a href="https://github.com/SammyG951/LuminaGlo-site/issues">Report Bug</a>
   </p>
@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About the Project
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][product-screenshot]](https://sammyg951.github.io/LuminaGlo-site/)
 
 Exploring the art of web design and content integration with this creative project. Perfect for practicing web development skills and design inspiration.
 
