@@ -108,11 +108,28 @@ footer {
 }
 
 #package-button {
+    color: var(--clr-secondary);
     font-family: var(--secondary-font-family);
     transition: all 0.2s ease-in-out;
 }
 
 #package-button:hover {
+    transform: scale(1.05);
+}
+
+#call-to-action {
+    background-color: var(--clr-secondary);
+    color: var(--clr-tertiary);
+    text-align: center;
+    line-height: 5rem;
+    padding: 7% 15%;
+}
+
+#call-to-action-button {
+    transition: all 0.2s ease-in-out;
+}
+
+#call-to-action-button:hover {
     transform: scale(1.05);
 }
 
