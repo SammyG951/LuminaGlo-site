@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LuminaGlo-site/static/css/main.eefc237f.css",
+    "main.js": "/LuminaGlo-site/static/js/main.dd320e05.js",
+    "static/media/LuminaGlo-bulb-img.png": "/LuminaGlo-site/static/media/LuminaGlo-bulb-img.aebd595d3163598bff2e.png",
+    "static/media/female-profile.svg": "/LuminaGlo-site/static/media/female-profile.b976d6dafd9057e0325d0974a8a19684.svg",
+    "static/media/male-profile.svg": "/LuminaGlo-site/static/media/male-profile.5cb6855a962c3a797f6a11a3f2b3f80f.svg",
+    "index.html": "/LuminaGlo-site/index.html",
+    "main.eefc237f.css.map": "/LuminaGlo-site/static/css/main.eefc237f.css.map",
+    "main.dd320e05.js.map": "/LuminaGlo-site/static/js/main.dd320e05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefc237f.css",
+    "static/js/main.dd320e05.js"
+  ]
+}
