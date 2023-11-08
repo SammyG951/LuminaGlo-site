@@ -11,10 +11,10 @@ function Title(){
             <Header />
             <Box>
                 <Grid container spacing={1}>
-                    <Grid item xs={4}>
+                    <Grid item lg={4} xs={12}>
                         <TitleImg />
                     </Grid>
-                    <Grid item xs={8} className="center">
+                    <Grid item lg={8} xs={12} className="center">
                         <div id="title-content" className="align-end">
                             <h1>Lighting Innovation at Your Fingertips.</h1>
                             <CustomButton id="title-button" name="View Options" href="#packages" />    

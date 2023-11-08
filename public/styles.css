@@ -174,3 +174,21 @@ footer {
     margin-bottom: 50px;
     transform: scale(1.5);
 }
+
+@media (max-width: 1000px) {
+
+    header {
+        padding: 4rem 7rem 0 4rem;
+    }
+
+    #title-content {
+        padding-inline: 200px 120px;
+        margin: 95px 0 200px 0;
+    }
+
+    #product-img {
+        top: 27%;
+        left: -20%;
+        width: 70%;
+    }
+}
