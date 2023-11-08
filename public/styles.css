@@ -51,7 +51,7 @@ footer {
     background-color: var(--clr-tertiary);
     color: var(--clr-secondary);
     text-align: center;
-    height: 200px;
+    height: 12.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,7 @@ footer {
 
 #title-button {
     font-family: var(--secondary-font-family);
-    margin-top: 100px;
+    margin-top: 6.25rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -82,8 +82,8 @@ footer {
 }
 
 #title-content {
-    padding-inline: 200px 300px;
-    margin: 150px 0 150px 0;
+    padding-inline: 12.5rem 18.75rem;
+    margin: 9.375rem 0 9.375rem 0;
 }
 
 #product-img {
@@ -113,8 +113,8 @@ footer {
 }
 
 #testimonial-carousel-item img {
-    height: 100px;
-    margin: 30px 45px 20px 20px;
+    height: 6.25rem;
+    margin: 1.875rem 2.183rem 1.25rem 1.25rem;
     background-color: var(--clr-tertiary);
     border-radius: 50%;
 }
@@ -167,11 +167,11 @@ footer {
 
 .feature-partial {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .feature-icon {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     transform: scale(1.5);
 }
 
