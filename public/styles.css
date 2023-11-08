@@ -126,7 +126,7 @@ footer {
 #packages {
     background-color: var(--clr-tertiary);
     color: var(--clr-secondary);
-    padding: 7% 15%;
+    padding: 7% 10%;
 }
 
 #package-button {
