@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 
 function SingleFeature(props){
     return(
-        <Grid item xs={3} className="feature-partial">
+        <Grid item lg={3} md={6} className="feature-partial">
             <div>
                 <div className="feature-icon">
                     {props.icon}
