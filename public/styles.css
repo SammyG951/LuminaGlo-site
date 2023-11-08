@@ -175,7 +175,7 @@ footer {
     transform: scale(1.5);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     #product-img {
         top: 47%;
         left: -32%;
@@ -183,6 +183,7 @@ footer {
         transform: rotate(17deg);
     }
 }
+
 
 @media only screen and (max-width: 768px) {
     
@@ -202,7 +203,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
     
     header {
         padding: 4rem 10rem 0 4rem;
@@ -219,7 +220,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
     #product-img {
         top: 20%;
         left: -6%;
