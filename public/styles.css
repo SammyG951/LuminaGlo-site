@@ -110,7 +110,9 @@ footer {
 #testimonial-carousel-item {
     color: var(--clr-tertiary);
     margin: 7% 15%;
+    padding-bottom: 2rem;
     text-align: center;
+    display: inline-grid;
 }
 
 #testimonial-carousel-item img {
