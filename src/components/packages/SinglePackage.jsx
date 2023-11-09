@@ -5,7 +5,7 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
 function SinglePackage(props){
     return(
-        <Grid item xs={4}>
+        <Grid item lg={4} md={6}>
             <div>
                 <h3>{props.name}</h3>
                 <p>{props.price}</p>
